@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/CompleteReactWebsite/static/css/main.51e73692.css",
+    "main.js": "/CompleteReactWebsite/static/js/main.31a5f92e.js",
+    "static/media/5.jpeg": "/CompleteReactWebsite/static/media/5.2088998816a63a176654.jpeg",
+    "index.html": "/CompleteReactWebsite/index.html",
+    "main.51e73692.css.map": "/CompleteReactWebsite/static/css/main.51e73692.css.map",
+    "main.31a5f92e.js.map": "/CompleteReactWebsite/static/js/main.31a5f92e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51e73692.css",
+    "static/js/main.31a5f92e.js"
+  ]
+}
