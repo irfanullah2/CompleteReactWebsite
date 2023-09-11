@@ -1,13 +1,109 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Navbar Styles */
+
+.footerh{
+  margin-top: 150px;
+  
+
+}
+.nav_bg {
+  background-color: #fff; /* Background color for the entire navbar */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.navbar {
+  background-color: transparent !important; /* Remove default background color */
+  padding: 10px 0; /* Add some vertical padding */
 }
+
+.navbar-brand {
+  color: #fff; /* Text color for the brand/logo */
+  font-size: 24px; /* Font size for the brand/logo */
+  font-weight: bold; /* Make it bold */
+}
+
+.navbar-toggler-icon {
+  background-color: #fff; /* Color of the hamburger icon */
+}
+
+.navbar-nav {
+  margin-left: auto; /* Push navbar items to the right */
+}
+.menu_active{
+ font-weight: bold;
+ border-bottom: 1px solid green;
+ color: #137ce6;
+
+}
+.nav-link {
+  color: #fff; /* Text color for navbar links */
+  font-weight: 500; /* Medium font weight */
+  margin-right: 20px; /* Add some space between links */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.nav-link:hover {
+  color: #137ce6; /* Change link color on hover */
+}
+/* Header Section Styles */
+/* #header {
+  background: url('/completewebsite/src/images/2.jpeg') center/cover no-repeat; /* Replace 'your-image-path.jpg' with your background image */
+  /* min-height: 100vh;
+} */ 
+
+/* .nav_bg {
+  background-color: rgba(0, 0, 0, 0.5); Background color for the container with some opacity
+} */
+
+.brand-name {
+  color: #007bff; /* Color for the brand name (ReactJS) */
+}
+
+.header-img img {
+  max-width: 100%; /* Make the image responsive */
+  animation: fadeInUp 1.5s ease; /* Add animation for the image */
+}
+
+/* Header Content Styles */
+.header-content {
+  padding: 5rem 0;
+}
+
+.header-content h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.header-content h2 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.btn-get-started {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-get-started:hover {
+  background-color: #0056b3; /* Hover background color for the button */
+}
+
+/* Animation for the header content */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
